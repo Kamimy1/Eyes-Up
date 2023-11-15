@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p6">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p6"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:fontFamily="@font/raylig_semi_bold"
+            android:text="6. ¿Qué opina de nuestro servicio de suscripción en formato papel?"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="415dp">
+
+            <RadioButton
+                android:id="@+id/p6r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="a. No lo utilizo, es un medio obsoleto que está condenado a desaparecer."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p6r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="b. No lo utilizo, pero varias personas cercanas a mi siguen utilizando este
+formato."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p6r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="c. Lo utilizo en ocasiones puntuales."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p6r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="d. Lo utilizo a diario y me parece mucho mejor que el formato electrónico."
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsp6"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Siguiente"
+                    android:textColor="#5E8CFF" />
+
+                <Button
+                    android:id="@+id/volver6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Volver"
+                    android:textColor="#5E8CFF" />
+            </LinearLayout>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>

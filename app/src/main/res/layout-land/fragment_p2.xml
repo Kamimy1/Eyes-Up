@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="332dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p2"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:text="2. ¿Cómo conoció la página web de Eyes Up?"
+            android:fontFamily="@font/raylig_semi_bold"
+            android:textColor="#000000"
+            android:textSize="20dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="415dp">
+
+            <RadioButton
+                android:id="@+id/p2r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:text="a. Radio."
+                android:fontFamily="@font/consola"
+                android:textSize="16dp"/>
+
+            <RadioButton
+                android:id="@+id/p2r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:text="b. Internet."
+                android:fontFamily="@font/consola"
+                android:textSize="16dp"/>
+
+            <RadioButton
+                android:id="@+id/p2r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:text="c. Nuestros productos de prensa y revistas."
+                android:fontFamily="@font/consola"
+                android:textSize="16dp"/>
+
+            <RadioButton
+                android:id="@+id/p2r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:text="d. Amigos, colegas o contactos."
+                android:fontFamily="@font/consola"
+                android:textSize="16dp"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsp2"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Siguiente"
+                    android:textColor="#5E8CFF" />
+
+                <Button
+                    android:id="@+id/volver2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Volver"
+                    android:textColor="#5E8CFF" />
+            </LinearLayout>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>

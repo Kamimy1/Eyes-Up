@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p5">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:fontFamily="@font/raylig_semi_bold"
+            android:text="5. ¿Estaría dispuesto a contratar una suscripción digital premium?"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="415dp">
+
+            <RadioButton
+                android:id="@+id/p5r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="a. No, no estoy dispuesto a pagar."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p5r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="b. Si, estaría dispuesto a pagar entre 5 y 10 euros mensuales."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p5r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="c. Si, estaría dispuesto a pagar más de 10 euros mensuales."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p5r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="d. No estoy seguro."
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsp5"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Siguiente"
+                    android:textColor="#5E8CFF" />
+
+                <Button
+                    android:id="@+id/volver5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Volver"
+                    android:textColor="#5E8CFF" />
+            </LinearLayout>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>

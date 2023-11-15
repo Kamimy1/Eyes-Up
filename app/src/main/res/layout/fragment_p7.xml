@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p7"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:fontFamily="@font/raylig_semi_bold"
+            android:text="7. Por favor, indíquenos su grado de satisfacción general con la página web de Eyes Up"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="415dp">
+
+            <RadioButton
+                android:id="@+id/p7r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="a. Mala."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p7r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="b. Regular."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p7r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="c. Buena."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p7r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="d. Muy buena."
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsp7"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Siguiente"
+                    android:textColor="#5E8CFF" />
+
+                <Button
+                    android:id="@+id/volver7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Volver"
+                    android:textColor="#5E8CFF" />
+            </LinearLayout>
+        </RadioGroup>
+
+    </LinearLayout>
+</FrameLayout>

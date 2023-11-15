@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="421dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p4"
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:fontFamily="@font/raylig_semi_bold"
+            android:text="4. ¿Desde qué dispositivo suele consultar nuestros servicios electrónicos? (Opción múltiple)"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/p4r1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFF59A"
+            android:checked="false"
+            android:fontFamily="@font/consola"
+            android:text="a. Smartphone."
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/p4r2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFF59A"
+            android:fontFamily="@font/consola"
+            android:text="b. Tablet."
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/p4r3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFF59A"
+            android:fontFamily="@font/consola"
+            android:text="c. Ordenador personal."
+            android:textSize="16dp" />
+
+        <RadioButton
+            android:id="@+id/p4r4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFF59A"
+            android:fontFamily="@font/consola"
+            android:text="d. Otros."
+            android:textSize="16dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnsp4"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle"
+                android:backgroundTint="#FFDE8B"
+                android:text="Siguiente"
+                android:textColor="#5E8CFF" />
+
+            <Button
+                android:id="@+id/volver4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circle"
+                android:backgroundTint="#FFDE8B"
+                android:text="Volver"
+                android:textColor="#5E8CFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

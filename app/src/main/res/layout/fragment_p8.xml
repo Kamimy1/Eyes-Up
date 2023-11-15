@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".p8">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="657dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/p8"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:fontFamily="@font/raylig_semi_bold"
+            android:text="8. ¿Recomendaría los servicios de Eyes Up a familiares o amigos?"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="305dp">
+
+            <RadioButton
+                android:id="@+id/p8r1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="a. Seguro que sí."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p8r2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="b. Probablemente sí."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p8r3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="c. Probablemente no."
+                android:textSize="16dp" />
+
+            <RadioButton
+                android:id="@+id/p8r4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#FFF59A"
+                android:fontFamily="@font/consola"
+                android:text="d. Seguro que no."
+                android:textSize="16dp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnsp8"
+                    android:layout_width="169dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Finalizar"
+                    android:textColor="#5E8CFF" />
+
+                <Button
+                    android:id="@+id/volver8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#FFDE8B"
+                    android:text="Volver"
+                    android:textColor="#5E8CFF" />
+            </LinearLayout>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8D5E1">
+
+    <TextView
+        android:id="@+id/textoDeplazable"
+        android:layout_width="290dp"
+        android:layout_height="384dp"
+        android:fontFamily="@font/consola"
+        android:scrollbars="vertical"
+        android:text="Eyes Up es una aplicación móvil de encuestas de la web del periódico de Eyes Up.
+Primero aparece una pantalla de bienvenida con el logo de la aplicación que permite acceder a la aplicación como tal. Una vez ahí dentro pide unos datos que enseñará mas tarde. Si los datos son correctos, te lleva a la parte del test, a la cual el usuario deberá realizar un test sobre varios temas de la web del periódico y al finalizar el test, llevará a una pantalla que enseña los datos recogidos anteriormente. Esta pantalla también implementa un botón que te deja hacer de nuevo en el cuestionario.
+Cada pantalla menos la de bienvenida tiene un menú que al que el usuario podrá acceder en caso de querer ver información de la aplicación y ayuda de la misma, con ambos teniendo un botón para volver atrás."
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E4E1AE"
+        android:text="Volver"
+        android:textColor="#7C75D8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498" />
+</androidx.constraintlayout.widget.ConstraintLayout>
